@@ -11,8 +11,11 @@ trait Tutorial {
   val compiler = new Global(settings, reporter)
 
   val src = "package foo; case class X();"
+
+  val cu = compiler.newCompilationUnit(src)
+  println(cu.body)
   val x = compiler.newUnitParser(src)
-  val y = x.parse()
+  val y = x.smartParse()
 
   println(y)
 
