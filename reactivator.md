@@ -17,3 +17,6 @@ So, I propose to have computer-aided upgrade. Authors of various libraries and f
 Before I start messing around with the code, do you think that your project is a good fit for it? Also, have I gone completely mad or is this something you think could work & be useful?
 
 I'd be grateful for your comments.
+
+#Service
+Allow access to your GitHub repos; run the analysis automatically; email the author/team. If possible, perform the updates automatically and send a PR. 
