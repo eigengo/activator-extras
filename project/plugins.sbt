@@ -9,13 +9,11 @@
 //// Use the Play sbt plugin for Play projects
 //addSbtPlugin("play" % "sbt-plugin" % "2.1.1")
 
-resolvers += "SCCT Snapshots" at "http://mtkopone.github.com/scct/maven-repo"
-
 resolvers += "sonatype-releases" at "https://oss.sonatype.org/content/repositories/releases/"
 
 addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.4.0")
 
-addSbtPlugin("reaktor" % "sbt-scct" % "0.2-SNAPSHOT") // https://github.com/mtkopone/scct/issues/43
+addSbtPlugin("com.github.scct" % "sbt-scct" % "0.2")
 
 addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "0.3.1")
 
